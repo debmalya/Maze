@@ -191,6 +191,9 @@ public class MazeExplorer {
 			// Print solution.
 			System.out.println(pop);
 			pop.setPrinted(true);
+		}else if (!isChanged && !pop.isPrinted()) {
+			System.out.println(pop);
+			pop.setPrinted(true);
 		}
 
 	}
