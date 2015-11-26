@@ -185,11 +185,12 @@ public class MazeExplorer {
 			isChanged = true;
 		}
 
-		if (pop.isSolved()) {
+		if (pop.isSolved() && !pop.isPrinted()) {
 			// Not able to move in any direction 'L' (Left),'R' (Right), 'F'
 			// (Forward), 'B' (Backward).
 			// Print solution.
 			System.out.println(pop);
+			pop.setPrinted(true);
 		}
 
 	}

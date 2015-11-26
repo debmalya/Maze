@@ -37,6 +37,22 @@ public class Solution {
 	 * Movement count;
 	 */
 	private int movementCount;
+	
+	
+	/**
+	 * @return the printed
+	 */
+	public boolean isPrinted() {
+		return printed;
+	}
+	/**
+	 * @param printed the printed to set
+	 */
+	public void setPrinted(boolean printed) {
+		this.printed = printed;
+	}
+
+	private boolean printed;
 	/**
 	 * Whether able to reach finishing point or not.
 	 */
