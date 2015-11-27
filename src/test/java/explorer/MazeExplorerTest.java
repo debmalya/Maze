@@ -8,7 +8,8 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 /**
- * @author 
+ * 
+ * @author debmalyajash
  *
  */
 public class MazeExplorerTest {
