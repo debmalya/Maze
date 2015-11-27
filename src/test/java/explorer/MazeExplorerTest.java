@@ -48,6 +48,23 @@ public class MazeExplorerTest {
 			"XXXXXXXXXXX   X",
 			"XFXXXXXXXXXXXXX"};
 	
+	String[] mazeBlocked1 = new String[]{
+			"XXXXXXXXXXXXXXX",
+			"X             X",
+			"X XXXXXXXXXXX X",
+			"X XSX       X X",
+			"X XXXXXXXXX X X",
+			"X XXXXXXXXX X X",
+			"X XXXX      X X",
+			"X XXXX XXXX X X",
+			"X XXXX XXXX X X",
+			"X X    XXXXXX X",
+			"X X XXXXXXXXX X",
+			"X X XXXXXXXXX X",
+			"X X         X X",
+			"XXXXXXXXXXX   X",
+			"XFXXXXXXXXXXXXX"};
+	
 	
 
 	/**
@@ -61,6 +78,11 @@ public class MazeExplorerTest {
 	@Test
 	public final void testExploreBlock() {
 		MazeExplorer.explore(mazeBlocked);
+	}
+	
+	@Test
+	public final void testExploreBlock1() {
+		MazeExplorer.explore(mazeBlocked1);
 	}
 
 }
